@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     line-height: 1.6;
     padding-top: 70px;
     transition: all 0.3s ease;
@@ -90,6 +90,10 @@ section {
     padding-top: 70px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
 h2 {
     color: #007bff;
     border-bottom: 2px solid #007bff;
@@ -124,6 +128,7 @@ body[data-bs-theme="dark"] .card-title {
 /* List Styles */
 .list-group-item {
     transition: all 0.3s ease;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 body[data-bs-theme="dark"] .list-group-item {
