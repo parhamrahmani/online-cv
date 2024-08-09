@@ -18,9 +18,13 @@ body[data-bs-theme="dark"] {
 
 /* Navbar Styles */
 #main-nav {
-    background-color: #000;
+    background-color: #1a1a1a;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
     padding: 0.5rem 1rem;
+}
+
+body[data-bs-theme="light"] #main-nav {
+    background-color: #343a40;
 }
 
 .navbar-brand, .nav-link {
@@ -62,6 +66,7 @@ body[data-bs-theme="dark"] {
 
 .theme-toggle .form-check-label {
     padding-left: 0.5rem;
+    color: #fff;
 }
 
 /* Language Toggle Styles */
@@ -69,11 +74,14 @@ body[data-bs-theme="dark"] {
     transition: all 0.3s ease;
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
+    color: #fff;
+    border-color: #fff;
 }
 
 .btn-group .btn.active {
     background-color: #007bff;
     color: white;
+    border-color: #007bff;
 }
 
 /* Section Styles */
